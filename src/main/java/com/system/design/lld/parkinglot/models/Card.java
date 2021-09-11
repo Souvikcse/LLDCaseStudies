@@ -71,5 +71,7 @@ public class Card {
     public void dissociateVehicleNumberAndSlotNumber() {
         this.vehicleNumber = "";
         this.slotNumber = 0;
+        this.checkInTime = null;
+        this.checkOutTime = null;
     }
 }
